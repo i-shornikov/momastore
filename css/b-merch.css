@@ -1,0 +1,221 @@
+.new,
+.bestsellers,
+.in_colection,
+.exclusive{
+    text-align: left;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.new{ color: #7ac142; }
+
+.bestsellers{ color: #731472; }
+
+.in_colection,
+.exclusive
+{
+    color: #FF6200;
+}
+
+.b-merch
+{
+    width: 100%;
+    position: relative;
+    background: rgb(238, 238, 238);
+    display: inline-block;
+    /* padding-bottom: 40px; */
+}
+
+.b-merch__content
+{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.b-merch__h1
+{
+    font-family: 'FranklinGothicFSDemi', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.b-merch__view__img
+{
+    float: left;
+}
+
+.b-merch__details
+{
+    float: right;
+    width: 260px;
+    margin-left: 20px;
+    padding-top: 22px;
+}
+
+.b-merch__details__h3
+{
+    display: block;
+    font-family: 'FranklinGothicFSDemi', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #666;
+    margin: 0px;
+    padding: 4px 0px 8px 0px;
+    border-bottom: 1px solid #d6d6d6;
+    text-transform: none;
+    background: none;
+}
+
+.b-merch__cart
+{
+    padding-top: 20px;
+}
+
+.b-merch__add-cart
+{
+    display: block;
+    color: #fff;
+    text-align: right;
+    font-family: 'FranklinGothicFSDemiCondensed', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    background: #00aeef;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    float: left;
+    margin-top: 20px;
+    width: 244px;
+    height: 13px;
+    padding: 12px 12px 15px 0;
+}
+
+.b-merch__add-cart:hover
+{
+    background: #00759b;
+}
+
+.b-merch__previews
+{
+    float: left;
+    width: 160px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.b-merch__previews__h3
+{
+    margin: 0 0 10px 0;
+    font-family: 'FranklinGothicFSDemiCondensed', Arial, sans-serif;
+    font-weight: normal;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 1px dotted #ccc;
+    display: inline-block;
+}
+
+.b-merch__previews__ul
+{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.b-merch__previews
+{
+    border: none;
+}
+
+.active{
+    border: 1px solid #00aeef;
+}
+
+.no-active
+{
+    clear: both;
+    border: none;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+.no-active:hover
+{
+    border: 1px solid #00aeef;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.b-merch__cart__h4
+{
+    margin: 0 0 10px 0;
+    font-family: 'FranklinGothicFSDemiCondensed', Arial, sans-serif;
+    font-weight: normal;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 1px dotted #ccc;
+    display: inline-block;
+    text-align: left;
+    width: 70px;
+}
+
+.b-merch__cart table
+{
+    float: left;
+}
+
+.b-merch__cart table td
+{
+    padding-left: 15px;
+}
+
+.b-merch__cart table tr
+{
+    vertical-align: top;
+    text-align: left;
+    height: auto;
+}
+
+.stock
+{
+    font-size: 12px;
+    font-weight: normal;
+    color: #555;
+}
+
+.quantity
+{
+    width: 40px;
+}
+
+.b-merch__cart .price
+{
+    font: bold 14px/100% Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.members
+{
+    color: #666 !important;
+}
+
+.item,
+.giff
+{
+    color: #666;
+    font: normal 10px/100% Arial, Helvetica, sans-serif;
+    padding: 10px 0;
+}
+
+.flat
+{
+    font: bold 11px/100% Arial, Helvetica, sans-serif;
+}
+
+.registry,
+.favorite
+{
+    font: bold 12px/100% Arial, Helvetica, sans-serif;
+}

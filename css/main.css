@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+body{
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+}
+
+@font-face
+{
+    font-family: FranklinGothicFSDemiCondensed;
+    src: local("FranklinGothicFSDemiCondensed"),
+    url(font/FranklinGothicFSDemiCondensed.ttf);
+}
+
+@font-face
+{
+    font-family: FranklinGothicFSDemi;
+    src: local("FranklinGothicFSDemi"),
+    url(font/FranklinGothicFSDemi.ttf);
+}
